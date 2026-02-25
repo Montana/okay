@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Check health of the three main Docker containers that ArgoCD orchestrates for HaloArchives.com  
+# Check health of the three main Docker containers that ArgoCD orchestrates for HaloArchives.com along with relevant subdirectories that Docker has ties to, such as it's now running ALPINE.
 
 set -euo pipefail
 
